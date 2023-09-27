@@ -1,0 +1,127 @@
+﻿@{
+    ViewData["Title"] = "Wesley Carvalho";
+}
+
+<main>
+    <section class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>Explorando o Código: Wesley Carvalho - Desenvolvedor em Ascenção <span>.</span></h1>
+                    <p>
+                        Bem-vindo ao meu mundo digital. Sou Wesley Carvalho, um desenvolvedor em ascenção 
+                        apaixonado pela criação de soluções envolventes e funcionais. 
+                        Explore meu portfólio e desvende um pouco mais sobre mim.
+                    </p>
+
+                    <div class="btn-contato">
+                        <a href="#">
+                            <button>Entre em contato</button>
+                        </a>
+                    </div> <!-- btn-contato -->
+                </div> <!-- txt-topo-site -->
+
+                <div class="img-topo-site">
+                    <img src="~/img/pessoa.png" alt="" />
+                </div> <!-- img-topo-site-->
+            </div>
+        </div> <!-- interface -->
+    </section> <!-- topo-do-site -->
+    <section class="especialidades">
+        <div class="interface">
+            <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <i class="bi bi-code-slash"></i>
+                    <h3>Desenvolvimento WEB</h3>
+                    <p> 
+                        Sou um desenvolvedor web em ascenção com conhecimento em HTML, CSS, JavaScript, PHP e Bootstrap. 
+                        Crio websites interativos e responsivos, combinando design atraente com funcionalidades.
+                    </p>
+                </div><!-- especialiades-box -->
+                <div class="especialidades-box">
+                    <i class="bi bi-filetype-sql"></i>
+                    <h3>SQL Server</h3>
+                    <p>
+                        Proficiente em SQL Server, tenho experiência em projetar e otimizar bancos de dados.
+                        Minhas habilidades abrangem consultas SQL, criação de Views, Procedures, Triggers e etc.
+                    </p>
+                </div><!-- especialiades-box -->
+                <div class="especialidades-box">
+                    <i class="bi bi-server"></i>
+                    <h3>Administrador de Banco de Dados</h3>
+                    <p> 
+                        Como administrador de banco de dados, tenho experiência em ambientes Windows Server 
+                        garantindo a segurança, o desempenho e a disponibilidade dos sistemas de gerenciamento de dados.
+                    </p>
+                </div><!-- especialiades-box -->
+            </div> <!-- flex -->
+        </div> <!-- interface -->
+    </section> <!-- especialidades -->
+    <section class="sobre">
+        <div class="interface">
+            <div class="flex">
+                <div class="img-sobre">
+                    <img src="/img/foto.png" alt="" />
+                </div> <!-- img-sobre -->
+
+                <div class="txt-sobre">
+                    <h2>MUITO PRAZER, <span>SOU WESLEY CARVALHO.</span></h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into 
+                        electronic typesetting, remaining essentially unchanged. It was popularised in 
+                        the 1960s with the release of Letraset.
+                    </p>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book.
+                    </p>
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-discord"></i></button></a><!-- DISCORD -->
+                        <a href="#"><button><i class="bi bi-envelope"></i></button></a><!-- E-MAIL -->
+                        <a href="#"><button><i class="bi bi-github"></i></button></a><!-- GITHUB -->
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a><!-- INSTAGRAM -->
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a><!-- LINKEDIN -->
+                        <a href="#"><button><i class="bi bi-telephone"></i></button></a><!-- TELEFONE -->
+                    </div><!-- btn-social -->
+
+                </div> <!-- txt-sobre -->
+            </div> <!-- flex -->
+        </div> <!-- interface -->
+    </section> <!-- sobre -->
+    <section class="portfolio">
+        <div class="interface">
+            <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+            <div class="flex">
+                <div class="img-port" style="background-image: url('/img/imagem.jpg');">
+                    <div class="overlay">Projeto 1</div> <!-- overlay -->
+                </div> <!-- img-port -->
+                <div class="img-port" style="background-image: url('/img/imagem.jpg');">
+                    <div class="overlay">Projeto 2</div> <!-- overlay -->
+                </div> <!-- img-port -->
+                <div class="img-port" style="background-image: url('/img/imagem.jpg');">
+                    <div class="overlay">Projeto 3</div> <!-- overlay -->
+                </div> <!-- img-port -->
+            </div> <!-- flex -->
+        </div> <!-- interface -->
+    </section> <!-- portfolio -->
+    <section class="formulario">
+        <div class="interface">
+            <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+            <form action="https://formsubmit.co/wesleyy598@gmail.com" method="POST" target="_blank">
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required/>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required/>
+                <textarea name="message" id="message" placeholder="Digite sua mensagem" required></textarea>
+                <div class="btn-enviar">
+                    <input type="submit" value="Enviar">
+                </div> <!-- btn-enviar -->
+            </form>
+        </div> <!-- interface -->
+    </section> <!-- formulario -->
+</main>

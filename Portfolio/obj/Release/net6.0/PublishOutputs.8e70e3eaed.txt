@@ -1,0 +1,7 @@
+C:\Users\Wesley\Documents\GitHub\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.exe
+C:\Users\Wesley\Documents\GitHub\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Wesley\Documents\GitHub\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Wesley\Documents\GitHub\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.dll
+C:\Users\Wesley\Documents\GitHub\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.deps.json
+C:\Users\Wesley\Documents\GitHub\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.runtimeconfig.json
+C:\Users\Wesley\Documents\GitHub\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.pdb
