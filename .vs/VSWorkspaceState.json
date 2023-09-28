@@ -4,9 +4,10 @@
     "\\Portfolio",
     "\\Portfolio\\Views",
     "\\Portfolio\\Views\\Home",
+    "\\Portfolio\\Views\\Shared",
     "\\Portfolio\\wwwroot",
     "\\Portfolio\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Portfolio\\wwwroot\\css\\site.css",
+  "SelectedNode": "\\Portfolio.sln",
   "PreviewInSolutionExplorer": false
 }

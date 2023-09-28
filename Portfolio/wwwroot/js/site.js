@@ -1,4 +1,17 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿/* MENU MOBILE */
+let btnMenu = document.getElementById('btn-menu')
+let menu = document.getElementById('menu-mobile')
+let overlay = document.getElementById('overlay-menu')
 
-// Write your JavaScript code.
+btnMenu.addEventListener('click', ()=>{
+    menu.classList.add('abrir-menu')
+})
+
+menu.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu')
+})
+
+overlay.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu')
+})
+/* FIM MENU MOBILE */
